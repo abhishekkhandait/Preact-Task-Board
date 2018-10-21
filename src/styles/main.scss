@@ -1,0 +1,74 @@
+body {
+    overflow-y: hidden;
+}
+.main-header {
+    background-color: #32c787;
+    span {
+        padding: 22px;
+    }
+}
+
+.tab-bar {
+    display: block;
+    margin-left: 20px;
+    a {
+        padding: 0 45px;
+    }
+}
+
+.board {
+    .board-title {
+        padding: 20px;
+        font-size: 2em;
+    }
+    .container {
+        .header {
+            height: 48px;
+            display: flex;
+            color: white;
+            align-items: center;
+            &.new {
+                background: #03a9f4;
+            }
+            &.on-hold {
+                background: #f5c942;
+            }
+            &.in-progress {
+                background: #d066e2;
+            }
+            &.done {
+                background: #ff6b68;
+            }
+            span {
+                width: 70%;
+                padding: 0 15px;
+            }
+        }
+        .content {
+            background: #cfd8dc;
+            min-height: 200px;
+            border-top: 2px solid white;
+            overflow-y: scroll;
+            max-height: 400px;
+            .card-holder {
+                width: 80%;
+                margin: 0 10%;
+                background: transparent;
+                .card {
+                    width: 100%;
+                    min-height: 100%;
+                    margin: 15px 0;
+                    .mdl-card__action {
+                        padding: 20px;
+                        .priority, .due-date{
+                            font-size: 12px;
+                        }
+                        .description {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
