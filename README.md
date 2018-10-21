@@ -8,4 +8,4 @@ To run the app:
 1. npm install
 2. npm run start
 
-![Alt Text](https://giphy.com/gifs/4NiFa9oi61NDTwCaG5/html5)
+![Alt Text](https://media.giphy.com/media/4NiFa9oi61NDTwCaG5/giphy.gif)
