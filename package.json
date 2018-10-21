@@ -11,7 +11,11 @@
   "repository": "git+https://github.com/abhishekkhandait/Preact-Task-Board.git",
   "keywords": [
     "preact",
-    "taskboard"
+    "taskboard",
+    "typescript",
+    "webpack",
+    "redux",
+    "preact-redux"
   ],
   "author": "Abhishek Khandait",
   "license": "ISC",
