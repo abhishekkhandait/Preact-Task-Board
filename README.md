@@ -1,5 +1,7 @@
 # Preact-Task-Board
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/abhishekkhandait/Preact-Task-Board.svg)](https://greenkeeper.io/)
+
   ![enter image description here](https://res.cloudinary.com/practicaldev/image/fetch/s--EG9pUbQL--/c_limit,f_auto,fl_progressive,q_auto,w_880/https://thepracticaldev.s3.amazonaws.com/i/3qs6lbnj1c4rvafb885c.jpg)
 
 **A basic task board app based on Preact, TypeScript, Webpack**
