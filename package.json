@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "test",
-		"build": "webpack",
+		"build:prod": "webpack",
 		"start": "npm run start-mockapi & webpack-dev-server --open",
 		"start-mockapi": "json-server --watch db.json --port 3001"
 	},
